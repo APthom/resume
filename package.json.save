@@ -1,0 +1,27 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "resume",
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/APthom/resume.git"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/APthom/resume/issues"
+  },
+  "homepage": "https://github.com/APthom/resume#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {}
+}
