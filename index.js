@@ -1,13 +1,10 @@
 var express = require('express');
-//var https = require('https');
 var httpPort = process.env.httpPort || 8000;
-//var httpsPort = process.env.httpsPort || 443;
 
 var app = express();
 
 app.use(express.static('views'))
 
-//app.use(express.static(path.join(__dirname, 'views')));
 
 app.get('/*', function(req, res){
   res.sendFile(path.join(__dirname, 'views', 'index.html'));
